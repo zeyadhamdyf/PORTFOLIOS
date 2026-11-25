@@ -18,7 +18,7 @@ export const socialLinks = [
     id: 'github',
     platform: 'GitHub',
     name: 'GitHub',
-    handle: '@Zeyad20055',
+    handle: '@zeyadhamdyf',
     icon: FaGithub,
     url: 'https://github.com/zeyadhamdyf',
     enabled: true,
