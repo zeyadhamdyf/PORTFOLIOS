@@ -96,6 +96,19 @@ function ProjectCardItem({ project, details, onSelect }) {
             className="pt-4 border-t flex flex-wrap items-center gap-2"
             style={{ borderColor: 'var(--border-subtle)' }}
           >
+            {project.demo && (
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary !py-2 !px-3.5 text-xs sm:text-sm font-semibold flex items-center gap-1.5"
+                aria-label={`${projectTitle} Live Demo`}
+              >
+                <FaExternalLinkAlt className="text-xs" />
+                <span>{t.projects.demo}</span>
+              </a>
+            )}
+
             <a
               href={project.github}
               target="_blank"
@@ -106,19 +119,6 @@ function ProjectCardItem({ project, details, onSelect }) {
               <FaGithub className="text-sm" />
               <span>{t.projects.github}</span>
             </a>
-
-            {project.demo && (
-              <a
-                href={project.demo}
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-outline !py-2 !px-3.5 text-xs sm:text-sm font-semibold flex items-center gap-1.5"
-                aria-label={`${projectTitle} Live Demo`}
-              >
-                <FaExternalLinkAlt className="text-xs" />
-                <span>{t.projects.demo}</span>
-              </a>
-            )}
 
             <button
               onClick={() => onSelect(project)}
