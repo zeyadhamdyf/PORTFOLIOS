@@ -3,6 +3,66 @@ import { asset } from '../utils/asset.js';
 
 export const projects = [
   {
+    id: 'alagamy',
+    title: 'Alagamy Market',
+    description:
+      'A fully Arabic (RTL) e-commerce storefront with a product catalog, category browsing, cart, and daily offers.',
+    category: 'frontend',
+    categories: ['frontend'],
+    image: asset('assets/images/projects/alagamy.png'),
+    tech: ['HTML', 'CSS', 'JavaScript', 'RTL'],
+    github: 'https://github.com/zeyadhamdyf/Alagamy_Market',
+    demo: 'https://zeyadhamdyf.github.io/Alagamy_Market/',
+  },
+  {
+    id: 'exo',
+    title: 'EXO - Beyond the Ordinary',
+    description:
+      "A luxury men's accessories landing page for watches, rings, and bracelets with a premium dark design and smooth animations.",
+    category: 'frontend',
+    categories: ['frontend'],
+    image: asset('assets/images/projects/exo.png'),
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/zeyadhamdyf/exo',
+    demo: 'https://zeyadhamdyf.github.io/exo/',
+  },
+  {
+    id: 'menucoffee',
+    title: 'Bite & Bliss',
+    description:
+      'A restaurant and coffee menu site with categorized dishes, offers, and a bilingual Arabic/English interface.',
+    category: 'frontend',
+    categories: ['frontend'],
+    image: asset('assets/images/projects/menucoffee.png'),
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/zeyadhamdyf/menuCoffee',
+    demo: 'https://zeyadhamdyf.github.io/menuCoffee/',
+  },
+  {
+    id: 'dashmin',
+    title: 'Dashmin Admin Dashboard',
+    description:
+      'An Arabic (RTL) admin dashboard for managing products, employees, and orders, with stats and data tables.',
+    category: 'frontend',
+    categories: ['frontend'],
+    image: asset('assets/images/projects/dashmin.png'),
+    tech: ['HTML', 'CSS', 'JavaScript', 'RTL'],
+    github: 'https://github.com/zeyadhamdyf/dashmin-arabic',
+    demo: 'https://zeyadhamdyf.github.io/dashmin-arabic/',
+  },
+  {
+    id: 'studentresults',
+    title: 'Student Results Management',
+    description:
+      'A bilingual dashboard for managing students and grades, with averages, grade distribution, and detailed reports.',
+    category: 'frontend',
+    categories: ['frontend'],
+    image: asset('assets/images/projects/studentresults.png'),
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/zeyadhamdyf/student-results-system',
+    demo: 'https://zeyadhamdyf.github.io/student-results-system/',
+  },
+  {
     id: 'bookstore',
     title: 'Book Store API',
     description:
@@ -72,7 +132,7 @@ export const projects = [
     image: asset('assets/images/projects/studymaster.jpg'),
     tech: ['React', 'JavaScript', 'CSS', 'LocalStorage'],
     github: 'https://github.com/zeyadhamdyf/study-master',
-    demo: '',
+    demo: 'https://zeyadhamdyf.github.io/study-master/',
   },
 ];
 
