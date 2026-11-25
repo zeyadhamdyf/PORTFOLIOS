@@ -16,9 +16,9 @@ export default function Contact() {
 
   const directLinks = [
     { href: cfg.whatsapp, icon: FaWhatsapp, label: 'WhatsApp', value: '+20 100 481 7363' },
-    { href: `mailto:${cfg.email}`, icon: FaEnvelope, label: 'Email', value: cfg.email },
+    { href: `${cfg.email}`, icon: FaEnvelope, label: 'Email', value: cfg.email.replace('mailto:', '') },
     { href: cfg.linkedin, icon: FaLinkedin, label: 'LinkedIn', value: 'Zeyad Hamdy' },
-    { href: cfg.github, icon: FaGithub, label: 'GitHub', value: 'zeyad20055' },
+    { href: cfg.github, icon: FaGithub, label: 'GitHub', value: 'zeyadhamdyf' },
     { href: cfg.telegram, icon: FaTelegram, label: 'Telegram', value: '@zeyad236' },
   ].filter((c) => c.href);
 
@@ -40,7 +40,7 @@ export default function Contact() {
 
     const j = cfg.emailjs;
     if (!(j.service && j.template && j.key)) {
-      window.location.href = `mailto:${cfg.email}?subject=${encodeURIComponent(
+      window.location.href = `${cfg.email}?subject=${encodeURIComponent(
         form.subject
       )}&body=${encodeURIComponent(form.message + '\n\n' + form.name + ' <' + form.email + '>')}`;
       setStatus('mail');
