@@ -115,6 +115,31 @@ export default {
     close: 'Close',
     techStack: 'Tech Stack',
     categoryLabel: 'Category',
+    alagamy: {
+      n: 'Alagamy Market',
+      category: 'Front-End Development',
+      d: 'A fully Arabic (RTL) e-commerce storefront with a product catalog, category browsing, cart, and daily offers.',
+    },
+    exo: {
+      n: 'EXO - Beyond the Ordinary',
+      category: 'Front-End Development',
+      d: "A luxury men's accessories landing page for watches, rings, and bracelets with a premium dark design and smooth animations.",
+    },
+    menucoffee: {
+      n: 'Bite & Bliss',
+      category: 'Front-End Development',
+      d: 'A restaurant and coffee menu site with categorized dishes, offers, and a bilingual Arabic/English interface.',
+    },
+    dashmin: {
+      n: 'Dashmin Admin Dashboard',
+      category: 'Front-End Development',
+      d: 'An Arabic (RTL) admin dashboard for managing products, employees, and orders, with stats and data tables.',
+    },
+    studentresults: {
+      n: 'Student Results Management',
+      category: 'Front-End Development',
+      d: 'A bilingual dashboard for managing students and grades, with averages, grade distribution, and detailed reports.',
+    },
     bookstore: {
       n: 'Book Store API',
       category: 'Back-End Development',
