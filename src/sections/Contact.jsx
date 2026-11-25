@@ -19,7 +19,7 @@ export default function Contact() {
     { href: `${cfg.email}`, icon: FaEnvelope, label: 'Email', value: cfg.email.replace('mailto:', '') },
     { href: cfg.linkedin, icon: FaLinkedin, label: 'LinkedIn', value: 'Zeyad Hamdy' },
     { href: cfg.github, icon: FaGithub, label: 'GitHub', value: 'zeyadhamdyf' },
-    { href: cfg.telegram, icon: FaTelegram, label: 'Telegram', value: '@zeyad236' },
+    { href: cfg.telegram, icon: FaTelegram, label: 'Telegram', value: '@zeyadhamdyf' },
   ].filter((c) => c.href);
 
   const handleSubmit = async (e) => {
